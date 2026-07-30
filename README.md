@@ -92,3 +92,36 @@ If the article takes 30 minutes or longer to read:
 
 There aren't tests for this feature, so you'll have to rely on running the code
 in the browser to see if your implementation works!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Running the project
+1. Clone the repo and run `npm install`
+2. Start the dev server: `npm run dev`
+3. Run tests: `npm test`
+
+## Components
+- **Header** – displays the blog name (prop: `name`)
+- **About** – displays logo + about text (props: `image`, `about`)
+- **ArticleList** – renders all articles (prop: `posts`)
+- **Article** – renders one article (props: `title`, `date`, `preview`)
+
